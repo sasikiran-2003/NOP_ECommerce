@@ -19,7 +19,7 @@ public class RegisterTest extends BaseTest {
         registerPage.selectGender("Male");
         registerPage.enterFirstName("John");
         registerPage.enterLastName("Doe");
-        registerPage.enterEmail("johndoe12328@example.com");
+        registerPage.enterEmail("johndoe12329@example.com");
         registerPage.enterCompanyName("ABC Company");
         registerPage.enterPassword("password123");
         registerPage.enterConfirmPassword("password123");
@@ -37,7 +37,7 @@ public class RegisterTest extends BaseTest {
         registerPage.selectGender("Female");
         registerPage.enterFirstName("Jane");
         registerPage.enterLastName("Doe");
-        registerPage.enterEmail("johndoe12328@example.com"); // Should already exist
+        registerPage.enterEmail("johndoe12329@example.com"); // Should already exist
         registerPage.enterCompanyName("XYZ Company");
         registerPage.enterPassword("password123");
         registerPage.enterConfirmPassword("password123");
