@@ -1,0 +1,7 @@
+com\nopcommerce\App.class
+pages\BasePage.class
+pages\ProductPage.class
+pages\LoginPage.class
+pages\CartPage.class
+utils\PropertyReader.class
+pages\RegisterPage.class

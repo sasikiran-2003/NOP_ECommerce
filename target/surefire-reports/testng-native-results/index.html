@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Registration with existing email should fail&quot;, &quot;User Registration&quot;)">runScenario("Registration with existing email should fail", "User Registration")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful login with valid credentials&quot;, &quot;User Login&quot;)">runScenario("Successful login with valid credentials", "User Login")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful logout&quot;, &quot;User Login&quot;)">runScenario("Successful logout", "User Login")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Registration with password mismatch should fail&quot;, &quot;User Registration&quot;)">runScenario("Registration with password mismatch should fail", "User Registration")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with invalid credentials should fail&quot;, &quot;User Login&quot;)">runScenario("Login with invalid credentials should fail", "User Login")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Successful registration with valid credentials&quot;, &quot;User Registration&quot;)">runScenario("Successful registration with valid credentials", "User Registration")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ProductTest" class="method navigator-link" hash-for-method="testAddConfigurableProductToCart">testAddConfigurableProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ProductTest" class="method navigator-link" hash-for-method="testAddSimpleProductToCartFromCategory">testAddSimpleProductToCartFromCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithEmptyCredentials">testLoginWithEmptyCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWithEmptyPassword">testLoginWithEmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CartTest" class="method navigator-link" hash-for-method="testProceedToCheckoutFromCart">testProceedToCheckoutFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ProductTest" class="method navigator-link" hash-for-method="testProductFilterFunctionality">testProductFilterFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ProductTest" class="method navigator-link" hash-for-method="testProductSearchFunctionality">testProductSearchFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="testUserLoginWithInvalidCredentials">testUserLoginWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="testUserLoginWithValidCredentials">testUserLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="testUserLogout">testUserLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.RegisterTest" class="method navigator-link" hash-for-method="testUserRegistrationWithEmptyFields">testUserRegistrationWithEmptyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.RegisterTest" class="method navigator-link" hash-for-method="testUserRegistrationWithExistingEmail">testUserRegistrationWithExistingEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.RegisterTest" class="method navigator-link" hash-for-method="testUserRegistrationWithPasswordMismatch">testUserRegistrationWithPasswordMismatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.RegisterTest" class="method navigator-link" hash-for-method="testUserRegistrationWithValidCredentials">testUserRegistrationWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.RegisterTest" class="method navigator-link" hash-for-method="testUserRegistrationWithWeakPassword">testUserRegistrationWithWeakPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ProductTest" class="method navigator-link" hash-for-method="testViewProductDetails">testViewProductDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserRegistrationWithEmptyFields">
+                  </a> <!-- testUserRegistrationWithEmptyFields -->
+                  <span class="method-name">testUserRegistrationWithEmptyFields</span>
+                  <em>
+(Verify registration fails with empty required fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserRegistrationWithExistingEmail">
+                  </a> <!-- testUserRegistrationWithExistingEmail -->
+                  <span class="method-name">testUserRegistrationWithExistingEmail</span>
+                  <em>
+(Verify registration fails with existing email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserRegistrationWithPasswordMismatch">
+                  </a> <!-- testUserRegistrationWithPasswordMismatch -->
+                  <span class="method-name">testUserRegistrationWithPasswordMismatch</span>
+                  <em>
+(Verify registration fails with password confirmation mismatch)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserRegistrationWithValidCredentials">
+                  </a> <!-- testUserRegistrationWithValidCredentials -->
+                  <span class="method-name">testUserRegistrationWithValidCredentials</span>
+                  <em>
+(Verify user can register with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserRegistrationWithWeakPassword">
+                  </a> <!-- testUserRegistrationWithWeakPassword -->
+                  <span class="method-name">testUserRegistrationWithWeakPassword</span>
+                  <em>
+(Verify registration fails with weak password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddConfigurableProductToCart">
+                  </a> <!-- testAddConfigurableProductToCart -->
+                  <span class="method-name">testAddConfigurableProductToCart</span>
+                  <em>
+(Verify user can configure and add product to cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddSimpleProductToCartFromCategory">
+                  </a> <!-- testAddSimpleProductToCartFromCategory -->
+                  <span class="method-name">testAddSimpleProductToCartFromCategory</span>
+                  <em>
+(Verify user can add simple product to cart from category page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductFilterFunctionality">
+                  </a> <!-- testProductFilterFunctionality -->
+                  <span class="method-name">testProductFilterFunctionality</span>
+                  <em>
+(Verify product filter functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductSearchFunctionality">
+                  </a> <!-- testProductSearchFunctionality -->
+                  <span class="method-name">testProductSearchFunctionality</span>
+                  <em>
+(Verify product search functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewProductDetails">
+                  </a> <!-- testViewProductDetails -->
+                  <span class="method-name">testViewProductDetails</span>
+                  <em>
+(Verify user can view product details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithEmptyCredentials">
+                  </a> <!-- testLoginWithEmptyCredentials -->
+                  <span class="method-name">testLoginWithEmptyCredentials</span>
+                  <em>
+(Verify login fails with empty credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithEmptyPassword">
+                  </a> <!-- testLoginWithEmptyPassword -->
+                  <span class="method-name">testLoginWithEmptyPassword</span>
+                  <em>
+(Verify login fails with valid email but empty password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserLoginWithInvalidCredentials">
+                  </a> <!-- testUserLoginWithInvalidCredentials -->
+                  <span class="method-name">testUserLoginWithInvalidCredentials</span>
+                  <em>
+(Verify login fails with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserLoginWithValidCredentials">
+                  </a> <!-- testUserLoginWithValidCredentials -->
+                  <span class="method-name">testUserLoginWithValidCredentials</span>
+                  <em>
+(Verify user can login with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserLogout">
+                  </a> <!-- testUserLogout -->
+                  <span class="method-name">testUserLogout</span>
+                  <em>
+(Verify user can logout successfully)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Registration with existing email should fail&quot;, &quot;User Registration&quot;)">
+                  </a> <!-- runScenario("Registration with existing email should fail", "User Registration") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Registration with existing email should fail","User Registration")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful login with valid credentials&quot;, &quot;User Login&quot;)">
+                  </a> <!-- runScenario("Successful login with valid credentials", "User Login") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful login with valid credentials","User Login")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful logout&quot;, &quot;User Login&quot;)">
+                  </a> <!-- runScenario("Successful logout", "User Login") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful logout","User Login")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Registration with password mismatch should fail&quot;, &quot;User Registration&quot;)">
+                  </a> <!-- runScenario("Registration with password mismatch should fail", "User Registration") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Registration with password mismatch should fail","User Registration")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with invalid credentials should fail&quot;, &quot;User Login&quot;)">
+                  </a> <!-- runScenario("Login with invalid credentials should fail", "User Login") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with invalid credentials should fail","User Login")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful registration with valid credentials&quot;, &quot;User Registration&quot;)">
+                  </a> <!-- runScenario("Successful registration with valid credentials", "User Registration") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful registration with valid credentials","User Registration")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProceedToCheckoutFromCart">
+                  </a> <!-- testProceedToCheckoutFromCart -->
+                  <span class="method-name">testProceedToCheckoutFromCart</span>
+                  <em>
+(Verify user can proceed to checkout from cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TestRunner&quot;/&gt;
+      &lt;class name=&quot;tests.BaseTest&quot;/&gt;
+      &lt;class name=&quot;tests.CartTest&quot;/&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.ProductTest&quot;/&gt;
+      &lt;class name=&quot;tests.RegisterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'runner.TestRunner')
+data.setCell(0, 3, 20458);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'runner.TestRunner')
+data.setCell(1, 3, 19366);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runner.TestRunner')
+data.setCell(2, 3, 14194);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'runner.TestRunner')
+data.setCell(3, 3, 13916);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'runner.TestRunner')
+data.setCell(4, 3, 13779);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'runner.TestRunner')
+data.setCell(5, 3, 10629);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testUserRegistrationWithPasswordMismatch')
+data.setCell(6, 2, 'tests.RegisterTest')
+data.setCell(6, 3, 9989);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testUserRegistrationWithWeakPassword')
+data.setCell(7, 2, 'tests.RegisterTest')
+data.setCell(7, 3, 9000);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testProceedToCheckoutFromCart')
+data.setCell(8, 2, 'tests.CartTest')
+data.setCell(8, 3, 6471);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testAddConfigurableProductToCart')
+data.setCell(9, 2, 'tests.ProductTest')
+data.setCell(9, 3, 6280);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testUserRegistrationWithValidCredentials')
+data.setCell(10, 2, 'tests.RegisterTest')
+data.setCell(10, 3, 4678);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testUserLogout')
+data.setCell(11, 2, 'tests.LoginTest')
+data.setCell(11, 3, 3941);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testUserRegistrationWithExistingEmail')
+data.setCell(12, 2, 'tests.RegisterTest')
+data.setCell(12, 3, 3245);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testProductSearchFunctionality')
+data.setCell(13, 2, 'tests.ProductTest')
+data.setCell(13, 3, 3010);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testLoginWithEmptyPassword')
+data.setCell(14, 2, 'tests.LoginTest')
+data.setCell(14, 3, 2742);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testUserLoginWithValidCredentials')
+data.setCell(15, 2, 'tests.LoginTest')
+data.setCell(15, 3, 2238);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testAddSimpleProductToCartFromCategory')
+data.setCell(16, 2, 'tests.ProductTest')
+data.setCell(16, 3, 2225);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testLoginWithEmptyCredentials')
+data.setCell(17, 2, 'tests.LoginTest')
+data.setCell(17, 3, 2178);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testUserLoginWithInvalidCredentials')
+data.setCell(18, 2, 'tests.LoginTest')
+data.setCell(18, 3, 1842);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testProductFilterFunctionality')
+data.setCell(19, 2, 'tests.ProductTest')
+data.setCell(19, 3, 1451);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testUserRegistrationWithEmptyFields')
+data.setCell(20, 2, 'tests.RegisterTest')
+data.setCell(20, 3, 1244);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testViewProductDetails')
+data.setCell(21, 2, 'tests.ProductTest')
+data.setCell(21, 3, 775);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.RegisterTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.CartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.BaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@2c51ff83)</span>
+                <span class="method-start">840 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Successful login with valid credentials", "User Login")</span>
+                <span class="method-start">2442 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login with invalid credentials should fail", "User Login")</span>
+                <span class="method-start">22909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Successful logout", "User Login")</span>
+                <span class="method-start">33539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Successful registration with valid credentials", "User Registration")</span>
+                <span class="method-start">47457 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Registration with existing email should fail", "User Registration")</span>
+                <span class="method-start">66825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Registration with password mismatch should fail", "User Registration")</span>
+                <span class="method-start">81020 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">94805 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.CartTest.testProceedToCheckoutFromCart())</span>
+                <span class="method-start">94944 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testProceedToCheckoutFromCart</span>
+                <span class="method-start">98789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testProceedToCheckoutFromCart status=SUCCESS method=CartTest.testProceedToCheckoutF...)</span>
+                <span class="method-start">105263 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.LoginTest.testUserLoginWithValidCredentials())</span>
+                <span class="method-start">105565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserLoginWithValidCredentials</span>
+                <span class="method-start">108450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testUserLoginWithValidCredentials status=SUCCESS method=LoginTest.testUserLoginWith...)</span>
+                <span class="method-start">110688 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.LoginTest.testUserLoginWithInvalidCredentials())</span>
+                <span class="method-start">111197 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserLoginWithInvalidCredentials</span>
+                <span class="method-start">113847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testUserLoginWithInvalidCredentials status=SUCCESS method=LoginTest.testUserLoginWi...)</span>
+                <span class="method-start">115690 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.LoginTest.testUserLogout())</span>
+                <span class="method-start">115959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserLogout</span>
+                <span class="method-start">119798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testUserLogout status=SUCCESS method=LoginTest.testUserLogout()[pri:3, instance:tes...)</span>
+                <span class="method-start">123739 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.LoginTest.testLoginWithEmptyCredentials())</span>
+                <span class="method-start">124491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithEmptyCredentials</span>
+                <span class="method-start">127082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginWithEmptyCredentials status=SUCCESS method=LoginTest.testLoginWithEmptyCre...)</span>
+                <span class="method-start">129261 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.LoginTest.testLoginWithEmptyPassword())</span>
+                <span class="method-start">129754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithEmptyPassword</span>
+                <span class="method-start">133429 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testLoginWithEmptyPassword status=SUCCESS method=LoginTest.testLoginWithEmptyPasswo...)</span>
+                <span class="method-start">136171 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.ProductTest.testViewProductDetails())</span>
+                <span class="method-start">136401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testViewProductDetails</span>
+                <span class="method-start">139942 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testViewProductDetails status=SUCCESS method=ProductTest.testViewProductDetails()[p...)</span>
+                <span class="method-start">140717 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.ProductTest.testAddConfigurableProductToCart())</span>
+                <span class="method-start">141040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddConfigurableProductToCart</span>
+                <span class="method-start">144062 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testAddConfigurableProductToCart status=SUCCESS method=ProductTest.testAddConfigura...)</span>
+                <span class="method-start">150343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.ProductTest.testAddSimpleProductToCartFromCategory())</span>
+                <span class="method-start">150924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddSimpleProductToCartFromCategory</span>
+                <span class="method-start">153728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testAddSimpleProductToCartFromCategory status=SUCCESS method=ProductTest.testAddSim...)</span>
+                <span class="method-start">155953 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.ProductTest.testProductSearchFunctionality())</span>
+                <span class="method-start">156400 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testProductSearchFunctionality</span>
+                <span class="method-start">159663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testProductSearchFunctionality status=SUCCESS method=ProductTest.testProductSearchF...)</span>
+                <span class="method-start">162674 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.ProductTest.testProductFilterFunctionality())</span>
+                <span class="method-start">164041 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testProductFilterFunctionality</span>
+                <span class="method-start">167039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testProductFilterFunctionality status=SUCCESS method=ProductTest.testProductFilterF...)</span>
+                <span class="method-start">168491 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.RegisterTest.testUserRegistrationWithValidCredentials())</span>
+                <span class="method-start">168824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserRegistrationWithValidCredentials</span>
+                <span class="method-start">172526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testUserRegistrationWithValidCredentials status=SUCCESS method=RegisterTest.testUse...)</span>
+                <span class="method-start">177206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.RegisterTest.testUserRegistrationWithExistingEmail())</span>
+                <span class="method-start">179183 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserRegistrationWithExistingEmail</span>
+                <span class="method-start">182122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testUserRegistrationWithExistingEmail status=SUCCESS method=RegisterTest.testUserRe...)</span>
+                <span class="method-start">185368 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.RegisterTest.testUserRegistrationWithPasswordMismatch())</span>
+                <span class="method-start">186031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserRegistrationWithPasswordMismatch</span>
+                <span class="method-start">189832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testUserRegistrationWithPasswordMismatch status=SUCCESS method=RegisterTest.testUse...)</span>
+                <span class="method-start">199822 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.RegisterTest.testUserRegistrationWithWeakPassword())</span>
+                <span class="method-start">200172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserRegistrationWithWeakPassword</span>
+                <span class="method-start">203959 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testUserRegistrationWithWeakPassword status=SUCCESS method=RegisterTest.testUserReg...)</span>
+                <span class="method-start">212960 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void tests.RegisterTest.testUserRegistrationWithEmptyFields())</span>
+                <span class="method-start">213369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserRegistrationWithEmptyFields</span>
+                <span class="method-start">216499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testUserRegistrationWithEmptyFields status=SUCCESS method=RegisterTest.testUserRegi...)</span>
+                <span class="method-start">217744 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.BaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownSuite</span>
+                <span class="method-start">218084 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

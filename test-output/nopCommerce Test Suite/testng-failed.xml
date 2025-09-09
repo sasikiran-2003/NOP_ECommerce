@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [nopCommerce Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Login Tests(failed)">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="tearDownSuite"/>
+          <include name="setUpSuite"/>
+          <include name="testLoginWithEmptyCredentials"/>
+          <include name="testLoginWithEmptyPassword"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+</suite> <!-- Failed suite [nopCommerce Test Suite] -->

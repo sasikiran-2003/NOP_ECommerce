@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-09T13:21:32 IST" name="nopCommerce Test Suite" finished-at="2025-09-09T13:25:00 IST" duration-ms="208663">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6c779568]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-09T13:21:32 IST" name="Register Tests" finished-at="2025-09-09T13:22:21 IST" duration-ms="49143">
+      <class name="tests.RegisterTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:21:32 IST" name="setUp" finished-at="2025-09-09T13:21:40 IST" duration-ms="8465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testUserRegistrationWithValidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUserRegistrationWithValidCredentials()[pri:1, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:21:40 IST" name="testUserRegistrationWithValidCredentials" description="Verify user can register with valid credentials" finished-at="2025-09-09T13:21:47 IST" duration-ms="6528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistrationWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:21:47 IST" name="tearDown" finished-at="2025-09-09T13:21:48 IST" duration-ms="986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserRegistrationWithValidCredentials status=SUCCESS method=RegisterTest.testUserRegistrationWithValidCredentials()[pri:1, instance:tests.RegisterTest@2de23121] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:21:48 IST" name="setUp" finished-at="2025-09-09T13:21:52 IST" duration-ms="4549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testUserRegistrationWithExistingEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUserRegistrationWithExistingEmail()[pri:2, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:21:52 IST" name="testUserRegistrationWithExistingEmail" description="Verify registration fails with existing email" finished-at="2025-09-09T13:21:58 IST" duration-ms="5673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistrationWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:21:58 IST" name="tearDown" finished-at="2025-09-09T13:22:01 IST" duration-ms="2861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserRegistrationWithExistingEmail status=SUCCESS method=RegisterTest.testUserRegistrationWithExistingEmail()[pri:2, instance:tests.RegisterTest@2de23121] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:22:01 IST" name="setUp" finished-at="2025-09-09T13:22:05 IST" duration-ms="3994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testUserRegistrationWithPasswordMismatch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUserRegistrationWithPasswordMismatch()[pri:3, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:22:05 IST" name="testUserRegistrationWithPasswordMismatch" description="Verify registration fails with password confirmation mismatch" finished-at="2025-09-09T13:22:07 IST" duration-ms="2582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistrationWithPasswordMismatch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:22:07 IST" name="tearDown" finished-at="2025-09-09T13:22:08 IST" duration-ms="504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserRegistrationWithPasswordMismatch status=SUCCESS method=RegisterTest.testUserRegistrationWithPasswordMismatch()[pri:3, instance:tests.RegisterTest@2de23121] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:22:08 IST" name="setUp" finished-at="2025-09-09T13:22:11 IST" duration-ms="3331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testUserRegistrationWithWeakPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUserRegistrationWithWeakPassword()[pri:4, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:22:11 IST" name="testUserRegistrationWithWeakPassword" description="Verify registration fails with weak password" finished-at="2025-09-09T13:22:15 IST" duration-ms="4283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistrationWithWeakPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:22:15 IST" name="tearDown" finished-at="2025-09-09T13:22:16 IST" duration-ms="523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserRegistrationWithWeakPassword status=SUCCESS method=RegisterTest.testUserRegistrationWithWeakPassword()[pri:4, instance:tests.RegisterTest@2de23121] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:22:16 IST" name="setUp" finished-at="2025-09-09T13:22:19 IST" duration-ms="3222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.RegisterTest.testUserRegistrationWithEmptyFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUserRegistrationWithEmptyFields()[pri:5, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:22:19 IST" name="testUserRegistrationWithEmptyFields" description="Verify registration fails with empty required fields" finished-at="2025-09-09T13:22:20 IST" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistrationWithEmptyFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegisterTest@2de23121]" started-at="2025-09-09T13:22:20 IST" name="tearDown" finished-at="2025-09-09T13:22:21 IST" duration-ms="466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserRegistrationWithEmptyFields status=SUCCESS method=RegisterTest.testUserRegistrationWithEmptyFields()[pri:5, instance:tests.RegisterTest@2de23121] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterTest -->
+    </test> <!-- Register Tests -->
+    <test started-at="2025-09-09T13:22:21 IST" name="Login Tests" finished-at="2025-09-09T13:22:57 IST" duration-ms="36579">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:21 IST" name="setUp" finished-at="2025-09-09T13:22:24 IST" duration-ms="3224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.LoginTest.testUserLoginWithValidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUserLoginWithValidCredentials()[pri:1, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:24 IST" name="testUserLoginWithValidCredentials" description="Verify user can login with valid credentials" finished-at="2025-09-09T13:22:29 IST" duration-ms="5374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:29 IST" name="tearDown" finished-at="2025-09-09T13:22:30 IST" duration-ms="814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserLoginWithValidCredentials status=SUCCESS method=LoginTest.testUserLoginWithValidCredentials()[pri:1, instance:tests.LoginTest@6db9f5a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:30 IST" name="setUp" finished-at="2025-09-09T13:22:33 IST" duration-ms="2739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.LoginTest.testUserLoginWithInvalidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUserLoginWithInvalidCredentials()[pri:2, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:33 IST" name="testUserLoginWithInvalidCredentials" description="Verify login fails with invalid credentials" finished-at="2025-09-09T13:22:35 IST" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:35 IST" name="tearDown" finished-at="2025-09-09T13:22:35 IST" duration-ms="465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserLoginWithInvalidCredentials status=SUCCESS method=LoginTest.testUserLoginWithInvalidCredentials()[pri:2, instance:tests.LoginTest@6db9f5a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:35 IST" name="setUp" finished-at="2025-09-09T13:22:38 IST" duration-ms="2973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.LoginTest.testUserLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUserLogout()[pri:3, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:38 IST" name="testUserLogout" description="Verify user can logout successfully" finished-at="2025-09-09T13:22:41 IST" duration-ms="3094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:41 IST" name="tearDown" finished-at="2025-09-09T13:22:44 IST" duration-ms="2446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserLogout status=SUCCESS method=LoginTest.testUserLogout()[pri:3, instance:tests.LoginTest@6db9f5a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:44 IST" name="setUp" finished-at="2025-09-09T13:22:47 IST" duration-ms="3453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.LoginTest.testLoginWithEmptyCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithEmptyCredentials()[pri:4, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:47 IST" name="testLoginWithEmptyCredentials" description="Verify login fails with empty credentials" finished-at="2025-09-09T13:22:48 IST" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:48 IST" name="tearDown" finished-at="2025-09-09T13:22:49 IST" duration-ms="524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithEmptyCredentials status=SUCCESS method=LoginTest.testLoginWithEmptyCredentials()[pri:4, instance:tests.LoginTest@6db9f5a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:49 IST" name="setUp" finished-at="2025-09-09T13:22:53 IST" duration-ms="4217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.LoginTest.testLoginWithEmptyPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithEmptyPassword()[pri:5, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:53 IST" name="testLoginWithEmptyPassword" description="Verify login fails with valid email but empty password" finished-at="2025-09-09T13:22:55 IST" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@6db9f5a4]" started-at="2025-09-09T13:22:55 IST" name="tearDown" finished-at="2025-09-09T13:22:57 IST" duration-ms="2191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithEmptyPassword status=SUCCESS method=LoginTest.testLoginWithEmptyPassword()[pri:5, instance:tests.LoginTest@6db9f5a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login Tests -->
+    <test started-at="2025-09-09T13:22:57 IST" name="Product Tests" finished-at="2025-09-09T13:23:37 IST" duration-ms="39515">
+      <class name="tests.ProductTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:22:57 IST" name="setUp" finished-at="2025-09-09T13:23:02 IST" duration-ms="4682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.ProductTest.testViewProductDetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testViewProductDetails()[pri:1, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:02 IST" name="testViewProductDetails" description="Verify user can view product details" finished-at="2025-09-09T13:23:04 IST" duration-ms="2174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewProductDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:04 IST" name="tearDown" finished-at="2025-09-09T13:23:09 IST" duration-ms="4616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testViewProductDetails status=SUCCESS method=ProductTest.testViewProductDetails()[pri:1, instance:tests.ProductTest@6e509ffa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:09 IST" name="setUp" finished-at="2025-09-09T13:23:14 IST" duration-ms="4730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.ProductTest.testAddConfigurableProductToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddConfigurableProductToCart()[pri:2, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:14 IST" name="testAddConfigurableProductToCart" description="Verify user can configure and add product to cart" finished-at="2025-09-09T13:23:16 IST" duration-ms="2800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddConfigurableProductToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:16 IST" name="tearDown" finished-at="2025-09-09T13:23:17 IST" duration-ms="822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddConfigurableProductToCart status=SUCCESS method=ProductTest.testAddConfigurableProductToCart()[pri:2, instance:tests.ProductTest@6e509ffa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:17 IST" name="setUp" finished-at="2025-09-09T13:23:21 IST" duration-ms="3463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.ProductTest.testAddSimpleProductToCartFromCategory()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddSimpleProductToCartFromCategory()[pri:3, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:21 IST" name="testAddSimpleProductToCartFromCategory" description="Verify user can add simple product to cart from category page" finished-at="2025-09-09T13:23:23 IST" duration-ms="2167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSimpleProductToCartFromCategory -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:23 IST" name="tearDown" finished-at="2025-09-09T13:23:24 IST" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddSimpleProductToCartFromCategory status=SUCCESS method=ProductTest.testAddSimpleProductToCartFromCategory()[pri:3, instance:tests.ProductTest@6e509ffa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:24 IST" name="setUp" finished-at="2025-09-09T13:23:28 IST" duration-ms="4157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.ProductTest.testProductSearchFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProductSearchFunctionality()[pri:4, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:28 IST" name="testProductSearchFunctionality" description="Verify product search functionality" finished-at="2025-09-09T13:23:30 IST" duration-ms="2241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearchFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:30 IST" name="tearDown" finished-at="2025-09-09T13:23:31 IST" duration-ms="628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductSearchFunctionality status=SUCCESS method=ProductTest.testProductSearchFunctionality()[pri:4, instance:tests.ProductTest@6e509ffa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:31 IST" name="setUp" finished-at="2025-09-09T13:23:34 IST" duration-ms="3462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.ProductTest.testProductFilterFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProductFilterFunctionality()[pri:5, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:34 IST" name="testProductFilterFunctionality" description="Verify product filter functionality" finished-at="2025-09-09T13:23:36 IST" duration-ms="1854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductFilterFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTest@6e509ffa]" started-at="2025-09-09T13:23:36 IST" name="tearDown" finished-at="2025-09-09T13:23:37 IST" duration-ms="666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductFilterFunctionality status=SUCCESS method=ProductTest.testProductFilterFunctionality()[pri:5, instance:tests.ProductTest@6e509ffa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductTest -->
+    </test> <!-- Product Tests -->
+    <test started-at="2025-09-09T13:23:37 IST" name="Cart Tests" finished-at="2025-09-09T13:23:46 IST" duration-ms="9016">
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.CartTest@6a2b953e]" started-at="2025-09-09T13:23:37 IST" name="setUp" finished-at="2025-09-09T13:23:40 IST" duration-ms="3112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.CartTest.testProceedToCheckoutFromCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProceedToCheckoutFromCart()[pri:1, instance:tests.CartTest@6a2b953e]" started-at="2025-09-09T13:23:40 IST" name="testProceedToCheckoutFromCart" description="Verify user can proceed to checkout from cart" finished-at="2025-09-09T13:23:46 IST" duration-ms="5454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProceedToCheckoutFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@6a2b953e]" started-at="2025-09-09T13:23:46 IST" name="tearDown" finished-at="2025-09-09T13:23:46 IST" duration-ms="446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProceedToCheckoutFromCart status=SUCCESS method=CartTest.testProceedToCheckoutFromCart()[pri:1, instance:tests.CartTest@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTest -->
+    </test> <!-- Cart Tests -->
+    <test started-at="2025-09-09T13:23:46 IST" name="Cucumber Tests" finished-at="2025-09-09T13:25:00 IST" duration-ms="74158">
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:tests.CartTest@6a2b953e]" started-at="2025-09-09T13:21:31 IST" name="setUpSuite" finished-at="2025-09-09T13:21:32 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.CartTest@6a2b953e]" started-at="2025-09-09T13:25:00 IST" name="tearDownSuite" finished-at="2025-09-09T13:25:01 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- tests.CartTest -->
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@6c779568]" started-at="2025-09-09T13:23:46 IST" name="setUpClass" finished-at="2025-09-09T13:23:47 IST" duration-ms="885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69637b10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6c779568]" started-at="2025-09-09T13:23:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T13:24:02 IST" duration-ms="15552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6c779568]" started-at="2025-09-09T13:24:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T13:24:15 IST" duration-ms="12654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credentials should fail"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6c779568]" started-at="2025-09-09T13:24:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T13:24:28 IST" duration-ms="12778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6c779568]" started-at="2025-09-09T13:24:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T13:24:39 IST" duration-ms="10609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful registration with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6c779568]" started-at="2025-09-09T13:24:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T13:24:49 IST" duration-ms="10538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration with existing email should fail"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6c779568]" started-at="2025-09-09T13:24:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T13:25:00 IST" duration-ms="11012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration with password mismatch should fail"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6c779568]" started-at="2025-09-09T13:25:00 IST" name="tearDownClass" finished-at="2025-09-09T13:25:00 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Cucumber Tests -->
+  </suite> <!-- nopCommerce Test Suite -->
+</testng-results>

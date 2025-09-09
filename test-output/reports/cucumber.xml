@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="92.782" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="User Login" name="Successful login with valid credentials" time="20.227">
+<system-out><![CDATA[
+Given I am on the login page................................................passed
+When I enter login email "validdetails@example.com".........................passed
+And I enter login password "validpassword"..................................passed
+And I click the login button................................................passed
+Then I should see the logout link...........................................passed
+And I should see the my account link........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with invalid credentials should fail" time="10.616">
+<system-out><![CDATA[
+Given I am on the login page................................................passed
+When I enter login email "invalid@example.com"..............................passed
+And I enter login password "wrongpassword"..................................passed
+And I click the login button................................................passed
+Then I should see an error message about login failure......................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Successful logout" time="13.908">
+<system-out><![CDATA[
+Given I am logged in........................................................passed
+When I click the logout link................................................passed
+Then I should be redirected to the home page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Registration" name="Successful registration with valid credentials" time="19.356">
+<system-out><![CDATA[
+Given I am on the registration page.........................................passed
+When I select gender "Male".................................................passed
+And I enter first name "John"...............................................passed
+And I enter last name "Doe".................................................passed
+And I enter register email "johndoe12317@example.com".......................passed
+And I enter company name "ABC Company"......................................passed
+And I enter register password "password123".................................passed
+And I enter confirm password "password123"..................................passed
+And I click the register button.............................................passed
+Then I should see the registration success message..........................passed
+And I should be able to logout..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Registration" name="Registration with existing email should fail" time="14.185">
+<system-out><![CDATA[
+Given I am on the registration page.........................................passed
+When I select gender "Female"...............................................passed
+And I enter first name "Jane"...............................................passed
+And I enter last name "Doe".................................................passed
+And I enter register email "johndoe12317@example.com".......................passed
+And I enter company name "XYZ Company"......................................passed
+And I enter register password "password123".................................passed
+And I enter confirm password "password123"..................................passed
+And I click the register button.............................................passed
+Then I should see an error message about existing email.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Registration" name="Registration with password mismatch should fail" time="13.771">
+<system-out><![CDATA[
+Given I am on the registration page.........................................passed
+When I select gender "Male".................................................passed
+And I enter first name "Bob"................................................passed
+And I enter last name "Smith"...............................................passed
+And I enter register email "bobsmith@example.com"...........................passed
+And I enter company name "Test Company".....................................passed
+And I enter register password "password123".................................passed
+And I enter confirm password "differentpassword"............................passed
+And I click the register button.............................................passed
+Then I should see an error message about password mismatch..................passed
+]]></system-out>
+</testcase>
+</testsuite>
